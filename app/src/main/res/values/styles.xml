@@ -7,5 +7,20 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    
+    <style name="Container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="Container.Dark">
+
+    </style>
+
+    <style name="Container.Background">
+        <item name="android:background">@drawable/ic_launcher_background</item>
+    </style>
+
 
 </resources>

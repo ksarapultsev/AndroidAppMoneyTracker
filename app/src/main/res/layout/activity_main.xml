@@ -3,29 +3,24 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
+    style="@style/Container"
     android:gravity="center_horizontal"
     tools:context=".MainActivity">
 
-    <TextView
-        android:text="@string/hello_kos"
-        android:layout_alignParentEnd="true"
-        android:paddingRight="15dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#F7F7F7"
+        android:layout_height="wrap_content">
 
-    <ListView
+        <ListView
         android:id="@+id/listview"
+        android:background="@drawable/ic_launcher_background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:divider="@android:color/transparent"
         android:dividerHeight="0.4dp">
 
+        </ListView>
 
-
-    </ListView>
-
-
+    </LinearLayout>
 </RelativeLayout>
