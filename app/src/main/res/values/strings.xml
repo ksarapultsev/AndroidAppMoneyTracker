@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidAppMoneyTracker</string>
+    <string name="hello_kos">Hello, Kos!</string>
 </resources>
